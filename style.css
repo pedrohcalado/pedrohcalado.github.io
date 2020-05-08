@@ -1,0 +1,38 @@
+body {
+    background-color: #bfc0c0;
+    font-size: 15px;
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+}
+p {
+    font-family: "Helvetica Neue", sans-serif;
+}
+#my-name {
+    font-family: Roboto,sans-serif;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+}
+#about-me-container {
+    margin: auto;
+}
+#profile-picture {
+    border-radius: 100%;
+    width: 150px;
+    padding: 5px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 35%;
+}
+#about-me-block {
+    display: inline-block;
+    width: 30%;
+    height: 150px;
+    overflow: auto;
+    margin-left: 50px;
+}
+.content {
+    margin-top: 80px;
+}
+.upper-container {
+    border: 1px solid black;
+}

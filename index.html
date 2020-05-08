@@ -3,39 +3,29 @@
     <head>
         <title>Pedro's portfolio</title>
         <meta charset="utf-8">
-        <style>
-            body {
-                background-color: #bfc0c0;
-                font-size: 15px;
-            }
-            h1 {
-                font-family: Helvetica,sans-serif;
-            }
-            p {
-                font-family: Arial, Helvetica, sans-serif;
-            }
-            .profile-picture {
-                border-radius: 100%;
-            }
-            .web-developer {
-                font-size: 1.3em;
-            }
-            .tech-lover {
-                font-size: 1.2em;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <h1 id="my-name">Pedro Henrique Calado</h1>
-            <h2>Index</h2>
+        <div id="my-name">
+            <h1>Pedro Henrique Calado</h1>
+        </div>
+        <div id="about-me-container">
+            <img id="profile-picture" src="/images/pedro_calado.jpg" alt="Pedro's picture">
+            <div id="about-me-block"> 
+                <h2>About me</h2>
+                <p><em><strong>Brazilian</strong>, 28 years old, Belo Horizonte, Brazil</em></p>
+            </div>
+        </div>
+        
+        
+        <div class="content">
+                <h2>Index</h2>
                 <ul>
                     <li><a href="#about-me">About me</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#blogs-i-love">Blogs I love</a></li>
                 </ul>
-            <h2 id="about-me">About me</h2>
-                <img src="/images/pedro_calado.jpg" alt="Pedro's picture" width="200px" class="profile-picture">
-                <p><em><strong>Brazilian</strong>, 28 years old, Belo Horizonte, Brazil</em></p>
+
             <h2 id="skills">Skills</h2>
                 <p>
                     <ul>
@@ -50,5 +40,6 @@
                     <li><a href="https://www.theverge.com/" target="_blank">The Verge</a></li>
                 </ul>
             <p><a href="#my-name">Go back</a></p>
+        </div>
     </body>
 </html>

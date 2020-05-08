@@ -33,6 +33,13 @@ p {
 .content {
     margin-top: 80px;
 }
-.upper-container {
-    border: 1px solid black;
+div.content h2 {
+    text-align: center;
+    margin-bottom: 1px;
+}
+.lists {
+    text-align: center;
+    list-style: none;
+    display: inline;
+    line-height: 20px;
 }

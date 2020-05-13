@@ -6,16 +6,15 @@ body {
   font-family: 'Space Grotesk',sans-serif;
   padding-left: 50px;
 }
+
 header {
 	font-family: 'Space Grotesk',sans-serif;
-	border: 1px solid white;
 }
 
 .header-name {
   font-size: 18px;
   font-weight: 600;
   line-height: 1.5;
-  text-align: left;
   margin-top: 50px;
   display: block;
 }
@@ -28,10 +27,6 @@ header {
   display: block;
 }
 
-.description {
-	border: 1px solid green;
-}
-
 .main-paragraph {
   display: inline-block;
   width: 40%;
@@ -41,13 +36,11 @@ header {
   font-weight: 100;
   line-height: 1.5;
 	text-align: left;
-	border: 1px solid orange;
 }
 
 .main-image {
   display: inline-block;
 	position: absolute;
-	border: 1px solid blue;
 	padding-top: 100px;
 }
 
@@ -56,13 +49,30 @@ header {
 	margin-top: 100px;
   display: block;
   margin: auto;
-	border: 1px solid red;
 }
 
 .hello {
   font-weight: 600;
 }
 
-footer {
-	border: 1px solid white;
+a {
+  color: white;
+}
+
+.lets-connect-header {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+footer ul {
+  padding-left: 0;
+  margin-top: 0;
+}
+
+footer li{
+  display: inline-block;
+  list-style: none;
+  margin-right: 5px;
 }

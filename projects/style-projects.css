@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+  font-size: 15px;
+  margin: 0;
+  color: white;
+  font-family: 'Space Grotesk',sans-serif;
+  padding-left: 50px;
+}
+
+header {
+	font-family: 'Space Grotesk',sans-serif;
+}
+
+.header-name {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-top: 50px;
+  display: block;
+}
+
+.header-title {
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 1.5;
+  text-align: left;
+  display: block;
+}
+
+a {
+  color: white;
+}
+
+
+footer ul {
+  padding-left: 0;
+  margin-top: 0;
+}
+
+footer li{
+  display: inline-block;
+  list-style: none;
+  margin-right: 5px;
+  margin-top: 600px;/*arrumar*/
+}

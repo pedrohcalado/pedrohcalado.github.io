@@ -1,0 +1,316 @@
+body {
+  background-color: #edf0f5;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar {
+  display: flex;
+  height: 65px;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 13px;
+  width: 980px;
+}
+
+header {
+  background-color: rgb(62, 92, 154);
+  height: 82px;
+}
+
+.facebook-logo {
+  background: transparent url('/projects/facebook-log-in/images/facebook-logo.png') no-repeat;
+  background-position: left;
+  background-size: 180px;
+  width: 50%;
+}
+
+.login {
+  align-items: center;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  width: 399px;
+}
+
+.login label {
+  font-size: 12px;
+}
+
+.email-phone {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+.email-phone input {
+  border: 1px solid rgb(204, 208, 213);
+  border-radius: 0;
+  font-size: 12px;
+  height: 18px;
+  margin-left: 14px;
+  margin-right: 14px;
+  width: 142px;
+}
+
+.email-phone label {
+  padding: 0 0 6px 14px;
+}
+
+.password {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.password input {
+  border: 1px solid rgb(204, 208, 213);
+  border-radius: 0;
+  font-size: 12px;
+  height: 18px;
+  outline: none;
+  width: 142px;
+}
+
+.email-phone input:focus {
+  outline: none;
+}
+
+.password label {
+  padding-bottom: 6px;
+}
+
+.password p {
+  color: rgb(156, 180, 216);
+  font-size: 12px;
+  margin: 6px 0;
+}
+
+.button {
+  display: flex;
+  margin-bottom: 3px;
+  margin-left: 0;
+}
+
+div.button button {
+  background-color: rgb(66, 103, 178);
+  border: 1px solid rgb(41, 72, 125);
+  border-radius: 2px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 14px;
+  padding: 4px 6px;
+}
+
+div.button button:hover {
+  background-color: rgb(62, 92, 154);
+}
+
+.container {
+  display: flex;
+  height: 583.84px;
+  margin: auto;
+  padding: 20px 0 15px 0;
+  width: 980px;
+}
+
+.left-side {
+  margin: 0 16px 0 0;
+  width: 565px;
+}
+
+.left-side p.main-text {
+  color: rgb(51, 51, 51);
+  font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 36px;
+  margin: 0;
+  padding: 42px 0 24px 0;
+  text-rendering: optimizelegibility;
+}
+
+.left-side div.photos-updates ,
+.left-side div.share ,
+.left-side div.find {
+  color: rgb(102, 102, 102);
+  display: flex;
+  margin-top: 14px;
+  padding-bottom: 10px;
+}
+
+.left-side strong {
+  color: rgb(51, 51, 51);
+}
+
+.left-side img {
+  margin-right: 16px;
+}
+
+.right-side {
+  width: 399px;
+}
+
+.right-side .open-account {
+  color: rgb(51, 51, 51);
+}
+
+.right-side .sign-up {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+
+.right-side .quick-easy {
+  font-size: 19px;
+  margin: 0 0 20px 0;
+}
+
+.espaco-cadastro {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.cadastro {
+  border: 1px solid rgb(189, 199, 216);
+  border-radius: 5px;
+  color: rgb(28, 30, 33);
+  font-size: 18px;
+  padding: 8px 10px;
+  width: 172px;
+}
+
+.cadastro:focus {
+  outline: none;
+}
+
+.input-celular-email , .input-password {
+  width: 100%;
+}
+
+.first-name-input {
+  margin-right: 10px;
+}
+
+.right-side .birthday p {
+  color: rgb(144, 148, 156);
+  font-size: 16px;
+  font-weight: bold;
+  margin: 20px 0 5px 0;
+}
+
+.right-side .birthday input {
+  border: 1px solid rgb(189, 199, 216);
+  font-size: 13px;
+  height: 15px;
+  padding: 5px;
+}
+
+.right-side .birthday div {
+  align-items: center;
+  display: flex;
+}
+
+.right-side .birthday img {
+  margin-left: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+.right-side .birthday img:hover {
+  cursor: pointer;
+}
+
+.right-side .gender p {
+  color: rgb(144, 148, 156);
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0 10px 0;
+}
+
+.right-side .gender input {
+  padding: 5px 0 5px 4px;
+}
+
+.right-side .gender label {
+  font-size: 18px;
+  margin-right: 12px;
+}
+
+.right-side .gender img {
+  height: 20px;
+  width: 20px;
+}
+
+.right-side .gender img:hover {
+  cursor: pointer;
+}
+
+.right-side .terms {
+  color: rgb(119, 119, 119);
+  line-height: 1.34;
+  font-size: 11px;
+  margin: 11px 0;
+  width: 316px;
+}
+
+.right-side .terms a {
+  color: rgb(56, 88, 152);
+  text-decoration: none;
+}
+
+.right-side .terms a:hover {
+  text-decoration: underline;
+}
+
+.right-side .terms a:visited {
+  color: rgb(56, 88, 152);
+}
+
+.right-side button {
+  background: linear-gradient(rgb(103, 174, 85), rgb(87, 136, 67));
+  background-color: #69a74e;
+  border: 1px solid;
+  border-color: rgb(59, 110, 34) rgb(59, 110, 34) rgb(44, 81, 21);
+  border-radius: 5px;
+  box-shadow: inset 0 1px 1px rgb(164, 227, 136);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 19px;
+  font-weight: bold;
+  margin: 10px 0;
+  min-width: 194px;
+  padding: 7px 20px;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+}
+
+.right-side button:hover {
+  background: linear-gradient(rgb(103, 174, 85), rgb(102, 145, 85));
+}
+
+.right-side .celebrity-page {
+  border-top: 1px solid rgb(221, 223, 226);
+  color: rgb(102, 102, 102);
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-top: 15px;
+}
+
+.right-side .celebrity-page a {
+  color: rgb(56, 88, 152);
+  text-decoration: none;
+}
+
+.right-side .celebrity-page a:hover {
+  text-decoration: underline;
+}
+
+.right-side .celebrity-page a:visited {
+  color: rgb(56, 88, 152);
+  text-decoration: none;
+}

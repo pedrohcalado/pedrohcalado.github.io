@@ -124,6 +124,15 @@ body {
     height: 15vh;
   }
 
+  .facebook {
+    background: white url('/projects/images/facebook.png') no-repeat;
+    background-size: 100%;
+    box-shadow: 0.1px 0.1px 5px 1px white;
+    border-radius: 5px;
+    width: 100%;
+    height: 15vh;
+  }
+
   footer {
     text-align: center;
   }
